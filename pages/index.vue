@@ -33,7 +33,9 @@
 						<div class="flex flex-wrap diygw-col-0 flex-direction-column items-center">
 							<img src="https://cdn.pic.in.th/file/picinth/icon1_sz1.png" class="image4-size diygw-image diygw-col-0 image4-clz" mode="widthFix" />
 						</div>
+						<NuxtLink to="/mission">
 						<div class="diygw-text-line1 diygw-col-0 text5-clz">เครดิตฟรี</div>
+						</NuxtLink>
 					</div>
 				</div>
 
