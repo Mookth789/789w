@@ -13,7 +13,7 @@
 
 
 <script>
-@import 'https://cdn.jsdelivr.net/npm/@nutui/nutui/dist/nutui.umd.js';
+import 'https://cdn.jsdelivr.net/npm/@nutui/nutui/dist/nutui.umd.js';
 
 
 
