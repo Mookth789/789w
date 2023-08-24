@@ -6,10 +6,13 @@
 
 
 <script>
+@import 'https://cdn.jsdelivr.net/npm/@nutui/nutui/dist/nutui.umd.js';
+
 
 
 </script>
 
 <style>
-
+@import 'https://cdn.jsdelivr.net/npm/@nutui/nutui/dist/style.css';
+@import 'https://cdn.jsdelivr.net/npm/@nutui/icons-vue/dist/style_icon.css';
 </style>
