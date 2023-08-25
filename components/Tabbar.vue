@@ -1,33 +1,4 @@
-<template>
-  <div>
-   	
-			<div class="container container22243">
-				<div class="diygw-title diygw-top solid-bottom" style="color: white; background: #ff32ad">
-					<div class="title flex1 text-center">หน้าหลัก</div>
-				</div>
- 
-
-  <div>
-  <slot/>
-  </div>
-
-
-
-	
-					
-				
-			
-
-
-
-
-	<div class="version text-grey flex-direction-column flex diygw-col-24 justify-center align-center">
-		<div>แพลตฟอร์มสร้างรายได้ออนไลน์</div>
-					<div>www.example.com</div>
-	</div>
-				<div class="clearfix"></div>
-
-<div class="flex diygw-col-24 diygw-bottom">
+	<div class="flex diygw-col-24 diygw-bottom">
 					<div class="diygw-grid diygw-actions">
 						<button class="diygw-action">
 							<div class="diygw-grid-inner">
@@ -40,8 +11,7 @@
 							</div>
 						</button>
 
-
-							<button class="diygw-action">
+						<button class="diygw-action">
 							<div class="diygw-grid-inner">
 								<div class="diygw-grid-icon diygw-avatar" style="font-size: calc(35px - 12px); width: 35px; height: 35px">
 									<NuxtLink to:='/mission'>
@@ -52,12 +22,23 @@
 							</div>
 						</button>
 
-
-							<button class="diygw-action">
+						<button class="diygw-action">
 							<div class="diygw-grid-inner">
 								<div class="diygw-grid-icon diygw-avatar" style="font-size: calc(35px - 12px); width: 35px; height: 35px">
 									<NuxtLink to:='/rank'>
-									<img mode="aspectFit" class="diygw-avatar-img" src="https://cdn.pic.in.th/file/picinth/grid5.png" />
+									<img mode="aspectFit" class="diygw-avatar-img" src="https://cdn.pic.in.th/file/picinth/grid3.png" />
+									</NuxtLink>
+								</div>
+								<div class="diygw-grid-title">อันดับ</div>
+							</div>
+						</button>
+
+
+						<button class="diygw-action">
+							<div class="diygw-grid-inner">
+								<div class="diygw-grid-icon diygw-avatar" style="font-size: calc(35px - 12px); width: 35px; height: 35px">
+									<NuxtLink to:='/chat'>
+									<img mode="aspectFit" class="diygw-avatar-img" src="https://cdn.pic.in.th/file/picinth/grid4.png" />
 									</NuxtLink>
 								</div>
 								<div class="diygw-grid-title">แชท</div>
@@ -65,42 +46,18 @@
 						</button>
 
 
-
-							<button class="diygw-action">
+						<button class="diygw-action">
 							<div class="diygw-grid-inner">
+								<NuxtLink to:='/profile'>
 								<div class="diygw-grid-icon diygw-avatar" style="font-size: calc(35px - 12px); width: 35px; height: 35px">
-									<NuxtLink to:='/profile'>
-									<img mode="aspectFit" class="diygw-avatar-img" src="https://cdn.pic.in.th/file/picinth/grid4.png" />
+									
+									<img mode="aspectFit" class="diygw-avatar-img" src="https://cdn.pic.in.th/file/picinth/grid5.png" />
 									</NuxtLink>
 								</div>
 								<div class="diygw-grid-title">ข้อมูล</div>
 							</div>
 						</button>
 
-
-
-	
-
-
-			</div>
-</div>
-
-
-
-
-
-</div>
-</div>
-</template>
-
-
-<script>
-
-
-</script>
-
-<style>
-@import "/assets/css/index.css";
-
-
-</style>
+            </div>
+					</div>
+				
